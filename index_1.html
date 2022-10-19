@@ -1,0 +1,61 @@
+<!-- 00:39:30 Нужно набрать восклицательный знак (!) и нажать TABle или Enter.
+И базова структура для любого сайта сама поставится.
+
+1. Что у нас будет документ содержать html
+2. Самый главный ТЭГ html, который весь сайт в себе содержит
+   lang="en" - это вообщем-то язык, здесь можно вместо "en" писать и "ru ",
+   тут больше играет роль, какие кавычки будут ставиться.
+3. Вообще тут два тэга главных это head (хэд) и body (бади).
+   в Тэге head мы прописываем какую-то служебную информацию
+4. Выставление кодировки (т.е. как кодируются наши символы, каким образом они потом раскодируются.
+   Потому что нужно передать всё через сеть.
+   И как это будет закодировано, чтобы передать через сеть - как раз кодировка это дело решает, т.е.
+   как это, скорее будет хранится на компьютере. И по поводу кодировки, всегда пишем UTF-8).
+5. Эта часть нужна для поддержки старых браузеров.
+6. Эта, чтобы правильно отображалась на РЕТИНЫХ дисплеях (Retina display), нпример на MACе.
+   Там очень много пикселей, чтобы всё корректно везде отображалось, ставится этот ТЭГ.
+   Он просто всегда должен быть.
+7. title (таитэл) - это заголовок страницы то, что будет сверху писаться
+
+<!DOCTYPE html>               (1)
+<html lang="en">              (2)
+<head>                        (3)
+    <meta charset="UTF-8">    (4)
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                     (5)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    (6)
+    <title>Document</title>                                                   (7)
+</head>
+<body>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привет</title>
+</head>
+<body>
+  <h1>Это заголовок</h1>
+  <!-- <p>Lorem</p> -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non dignissimos aliquid deleniti quas debitis totam nemo porro ullam, labore minima exercitationem harum fugit. Eaque maiores accusamus laboriosam voluptatibus natus.</p>
+  <!-- p.asd*3
+  <p class="asd"></p>
+  <p class="asd"></p>
+  <p class="asd"></p> -->
+
+   
+  <!-- nav>ul>li -->
+<!-- <nav>
+   <ul>
+      <li></li>
+   </ul>
+</nav> -->
+</body>
+</html>
+
+
